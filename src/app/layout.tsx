@@ -4,7 +4,10 @@ import { Providers } from '@/app/providers';
 
 export const metadata: Metadata = {
   title: 'LATENT — лаборатория расхождения моделей',
-  description: 'Измените одно условие и наблюдайте, как расходятся параллельные ответы ИИ.'
+  description: 'Измените одно условие и наблюдайте, как расходятся параллельные ответы ИИ.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
