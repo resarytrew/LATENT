@@ -3,8 +3,8 @@ import './globals.css';
 import { Providers } from '@/app/providers';
 
 export const metadata: Metadata = {
-  title: 'LATENT — Model Divergence',
-  description: 'Change one thing. Watch intelligence diverge.'
+  title: 'LATENT — лаборатория расхождения моделей',
+  description: 'Измените одно условие и наблюдайте, как расходятся параллельные ответы ИИ.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
